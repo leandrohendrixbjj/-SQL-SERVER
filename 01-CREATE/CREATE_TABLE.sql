@@ -1,0 +1,13 @@
+use estudos;
+
+CREATE TABLE PRODUTOS( 
+ [id] int not null,
+[NOME] [VARCHAR] (100));
+
+ALTER TABLE PRODUTOS 
+ADD CONSTRAINT pk_id
+PRIMARY KEY CLUSTERED(id);
+
+
+
+	
